@@ -8,6 +8,21 @@
         <java.version>11</java.version>
         <maven.compiler.version>3.8.0</maven.compiler.version>
     </properties>
+
+    <dependencies>
+        <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>4.11</version>
+          <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>5.5.7.Final</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
