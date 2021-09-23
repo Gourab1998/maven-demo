@@ -7,19 +7,21 @@
     <properties>
         <java.version>11</java.version>
         <maven.compiler.version>3.8.0</maven.compiler.version>
+        <hibernate.core.version>5.5.7.Final</hibernate.core.version>
+        <junit.version>4.11</junit.version>
     </properties>
 
     <dependencies>
         <dependency>
           <groupId>junit</groupId>
           <artifactId>junit</artifactId>
-          <version>4.11</version>
+          <version>${junit.version}</version>
           <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>5.5.7.Final</version>
+            <version>${hibernate.core.version}</version>
         </dependency>
     </dependencies>
 
