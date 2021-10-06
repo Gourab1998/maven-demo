@@ -1,4 +1,9 @@
 <project>
+    <parent>
+        <groupId>com.maven</groupId>
+        <artifactId>HelloWorld</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <groupId>com.maven</groupId>
     <artifactId>HelloWorldServer</artifactId>
     <version>1.0-SNAPSHOT</version>
